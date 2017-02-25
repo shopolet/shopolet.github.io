@@ -59,9 +59,23 @@ body, section {
     align-items: center;
 }
 
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px) {
+@media only screen and (max-device-width: 736px) {
+    body {
+        font-size: 1em;
+    }
+
+    section > figure > div {
+        width: 256px;
+        height: 256px;
+        background-image: url(../images/shopolet-logo-256X256.png);
+    }
+}
+
+@media (max-width: 736px) {
+    body {
+        font-size: 1em;
+    }
+
     section > figure > div {
         width: 256px;
         height: 256px;
